@@ -1,0 +1,8 @@
+Data quality summary
+
+- Raw CSV inventory: 8 files found; the assignment mentions 10, so investor_transactions, scheme_performance, and AUM sources are not fully available in this workspace.
+- AMFI validation: passed. All 6 scheme codes in fund_master exist in nav_history.
+- NAV validation: passed. No duplicate scheme/date rows, invalid dates, or non-positive NAV values were found before daily filling.
+- NAV forward fill: nav_history_clean.csv has 29,209 rows; 9,310 rows were generated for holidays/weekends and flagged with is_forward_filled.
+- Requested/API scheme-name mismatch: 5 of 6 requested labels differ from the names returned by mfapi for the supplied AMFI codes.
+- Missing source handling: investor_transactions_clean.csv and fund_aum_clean.csv are schema-only because their raw source files are absent. scheme_performance_clean.csv is derived from NAV history and flags expense_ratio_missing.
