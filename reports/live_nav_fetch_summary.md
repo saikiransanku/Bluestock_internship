@@ -1,7 +1,7 @@
 # Live NAV Fetch Summary
 
 Fetched schemes: 6
-NAV rows fetched: 19900
+NAV rows fetched: 19906
 
 ## Requested vs API Metadata
 
