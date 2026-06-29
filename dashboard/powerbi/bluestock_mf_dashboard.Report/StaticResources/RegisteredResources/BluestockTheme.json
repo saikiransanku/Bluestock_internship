@@ -1,0 +1,42 @@
+{
+  "$schema": "https://powerbi.com/product/schema#reportTheme",
+  "name": "Bluestock",
+  "dataColors": [
+    "#0B63CE",
+    "#17B6E6",
+    "#15B8A6",
+    "#FF9F43",
+    "#7C5CFC",
+    "#E85D75",
+    "#2E8B57",
+    "#F1C40F"
+  ],
+  "good": "#15B8A6",
+  "neutral": "#FF9F43",
+  "bad": "#E85D75",
+  "background": "#F4F7FB",
+  "foreground": "#15233B",
+  "tableAccent": "#0B63CE",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#15233B"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#65738B"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 30,
+      "color": "#15233B"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#15233B"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+model BluestockMF
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBI_QueryOrder = ["Dim_Date", "Dim_Fund", "Fact_NAV", "Fact_Performance", "Fact_Fund_AUM", "Fact_Investor_Transactions", "Fact_Industry_Monthly", "Fact_Category_Flows"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Dim_Date
+ref table Dim_Fund
+ref table Fact_NAV
+ref table Fact_Performance
+ref table Fact_Fund_AUM
+ref table Fact_Investor_Transactions
+ref table Fact_Industry_Monthly
+ref table Fact_Category_Flows
+
+ref cultureInfo en-US
+

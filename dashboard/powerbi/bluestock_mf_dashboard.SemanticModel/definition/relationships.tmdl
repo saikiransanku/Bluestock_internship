@@ -1,0 +1,40 @@
+relationship 7ae86cd2-06a3-5f11-b079-d6bb614b7907
+	fromColumn: Fact_NAV.amfi_code
+	toColumn: Dim_Fund.amfi_code
+
+relationship 7e27e937-9c92-5c44-8837-3fc533333171
+	fromColumn: Fact_Performance.amfi_code
+	toColumn: Dim_Fund.amfi_code
+
+relationship 42a1d5e9-5409-5e7d-a125-40e669928bd2
+	fromColumn: Fact_Fund_AUM.amfi_code
+	toColumn: Dim_Fund.amfi_code
+
+relationship b11be259-1fb3-5eaf-afe4-468ec4e0a098
+	fromColumn: Fact_Investor_Transactions.amfi_code
+	toColumn: Dim_Fund.amfi_code
+
+relationship cee8000e-74c7-5a21-8d34-1456c2562758
+	fromColumn: Fact_NAV.date
+	toColumn: Dim_Date.date
+
+relationship 04098f8f-9071-55c5-8d7a-5b2ec548acb5
+	fromColumn: Fact_Performance.date
+	toColumn: Dim_Date.date
+
+relationship e08f8662-6637-5558-b4e2-4bab5d48fd6b
+	fromColumn: Fact_Fund_AUM.date
+	toColumn: Dim_Date.date
+
+relationship aa90d046-8c7b-5265-aee7-3582f75f9dc0
+	fromColumn: Fact_Investor_Transactions.date
+	toColumn: Dim_Date.date
+
+relationship bbc40ccb-1e3a-5ddb-bd3f-e37df60ca312
+	fromColumn: Fact_Industry_Monthly.date
+	toColumn: Dim_Date.date
+
+relationship 4d10d733-b53c-54c9-8856-19dbd879ee3f
+	fromColumn: Fact_Category_Flows.date
+	toColumn: Dim_Date.date
+

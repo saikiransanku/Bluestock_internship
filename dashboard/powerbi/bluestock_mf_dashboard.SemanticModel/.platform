@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Bluestock MF Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "46caedba-be79-5cda-aff4-31a62b30f6c2"
+  }
+}

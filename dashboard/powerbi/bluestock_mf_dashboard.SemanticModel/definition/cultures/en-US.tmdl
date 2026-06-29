@@ -1,0 +1,242 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "fact_industry_monthly.folios_display": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Industry_Monthly",
+			          "ConceptualProperty": "Folios Display"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Folios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_industry_monthly.schemes_display": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Industry_Monthly",
+			          "ConceptualProperty": "Schemes Display"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Schemes": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_industry_monthly.sip_display": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Industry_Monthly",
+			          "ConceptualProperty": "SIP Display"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "SIP Inflows": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_industry_monthly.aum_display": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Industry_Monthly",
+			          "ConceptualProperty": "AUM Display"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Total AUM": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fund.scheme_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Fund",
+			          "ConceptualProperty": "scheme_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Fund": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fund.fund_house": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Fund",
+			          "ConceptualProperty": "fund_house"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "AMC": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "dim_fund.category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Dim_Fund",
+			          "ConceptualProperty": "category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_performance.fund_rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Performance",
+			          "ConceptualProperty": "Fund Rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rank": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_performance.fund_score": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_Performance",
+			          "ConceptualProperty": "Fund Score"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Score": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_nav.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_NAV",
+			          "ConceptualProperty": "date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Date": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "fact_nav.nav_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Fact_NAV",
+			          "ConceptualProperty": "NAV Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "NAV": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

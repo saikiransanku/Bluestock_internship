@@ -1,0 +1,91 @@
+table Dim_Fund
+	lineageTag: e97ff832-f193-4450-847d-a6c65ab78df0
+
+	column amfi_code
+		dataType: string
+		lineageTag: d64e3653-b78c-4f82-b61c-c5995d1b294d
+		summarizeBy: none
+		sourceColumn: amfi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheme_name
+		dataType: string
+		lineageTag: dc579f2a-bd2e-4bc3-9f2f-2c8eeb956b48
+		summarizeBy: none
+		sourceColumn: scheme_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column fund_house
+		dataType: string
+		lineageTag: 4cc960c2-8179-4c96-b93c-6fde72365092
+		summarizeBy: none
+		sourceColumn: fund_house
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: d65702e4-7955-4e2f-8944-1b31366f15ac
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column plan
+		dataType: string
+		lineageTag: 709e9985-5d84-4b09-a312-7cb4f7c735f0
+		summarizeBy: none
+		sourceColumn: plan
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_band
+		dataType: string
+		lineageTag: 2ae50602-7a5a-4292-bdb9-e1dd92fa1d2f
+		summarizeBy: none
+		sourceColumn: risk_band
+
+		annotation SummarizationSetBy = Automatic
+
+	column expense_ratio_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: d9cccdca-ec4a-420f-a53b-c9222f12dea6
+		summarizeBy: sum
+		sourceColumn: expense_ratio_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column expense_ratio_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: c34fad25-f1a0-41a8-b281-b678e281bc06
+		summarizeBy: none
+		sourceColumn: expense_ratio_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: e2a89511-0358-4aa1-9515-0422d118fa4c
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Dim_Fund = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\dim_fund.csv"), [Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"amfi_code", type text}, {"scheme_name", type text}, {"fund_house", type text}, {"category", type text}, {"plan", type text}, {"risk_band", type text}, {"expense_ratio_pct", type number}, {"expense_ratio_date", type date}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

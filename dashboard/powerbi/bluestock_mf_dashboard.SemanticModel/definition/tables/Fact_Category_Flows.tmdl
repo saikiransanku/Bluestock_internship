@@ -1,0 +1,94 @@
+table Fact_Category_Flows
+	lineageTag: 113b8b31-ae59-4352-bfd7-7abd8009941a
+
+	measure 'Net Inflow' = SUM(Fact_Category_Flows[net_inflow_crore])
+		formatString: ₹#,0 Cr
+		lineageTag: 937be139-7eda-4408-bf0d-45418510aa91
+
+	measure 'FY25 Top 5 Net Inflow' = CALCULATE([Net Inflow], Fact_Category_Flows[fiscal_year] = "FY25", Fact_Category_Flows[top5_fy25] = 1)
+		formatString: ₹#,0 Cr
+		lineageTag: 16142373-9123-4f1d-a06c-b19c53884193
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 6b62a133-f5e7-4750-a8c2-4ec7a7404f69
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 715600a8-a3a0-49b8-ae14-2db813982367
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column gross_inflow_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: e0853fe8-0fa2-47b0-8382-47b94757aca0
+		summarizeBy: sum
+		sourceColumn: gross_inflow_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column outflow_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 84c0dc7a-850d-4147-b518-4c8b8d4e2780
+		summarizeBy: sum
+		sourceColumn: outflow_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column net_inflow_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 29bf4d01-8796-46b8-8db9-b14beccc8210
+		summarizeBy: sum
+		sourceColumn: net_inflow_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiscal_year
+		dataType: string
+		lineageTag: 1c5dabbc-33e5-4b6b-a2f0-fc2c377c42b0
+		summarizeBy: none
+		sourceColumn: fiscal_year
+
+		annotation SummarizationSetBy = Automatic
+
+	column top5_fy25
+		dataType: int64
+		formatString: #,0
+		lineageTag: 8d5a3d41-33e1-4671-9522-2caa821c3d93
+		summarizeBy: sum
+		sourceColumn: top5_fy25
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 2c0f5487-b0f9-4922-867d-535309a10b31
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Category_Flows = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_category_flows.csv"), [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"date", type date}, {"category", type text}, {"gross_inflow_crore", type number}, {"outflow_crore", type number}, {"net_inflow_crore", type number}, {"fiscal_year", type text}, {"top5_fy25", Int64.Type}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

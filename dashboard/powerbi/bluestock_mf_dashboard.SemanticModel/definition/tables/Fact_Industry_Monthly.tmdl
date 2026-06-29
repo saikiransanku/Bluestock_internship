@@ -1,0 +1,110 @@
+table Fact_Industry_Monthly
+	lineageTag: 4669c9e1-119e-4395-af4d-61a5384860fe
+
+	measure 'Industry AUM Cr' = MAX(Fact_Industry_Monthly[aum_crore])
+		formatString: ₹#,0
+		lineageTag: 968a121b-b5d7-40be-bbb6-7a8f405afc31
+
+	measure 'SIP Inflow Cr' = MAX(Fact_Industry_Monthly[sip_inflow_crore])
+		formatString: ₹#,0
+		lineageTag: aa78e80c-ab74-4b50-8682-7cbc5168bb83
+
+	measure 'Folios Count' = MAX(Fact_Industry_Monthly[folios])
+		formatString: #,0
+		lineageTag: 8b7dd2bd-63b7-4abc-bb13-72f5217a531d
+
+	measure 'Schemes Count' = MAX(Fact_Industry_Monthly[schemes])
+		formatString: #,0
+		lineageTag: 23b8da9a-037e-4e47-9d37-f33b5d22c0a2
+
+	measure 'Nifty 50' = MAX(Fact_Industry_Monthly[nifty50])
+		formatString: #,0
+		lineageTag: 12612251-0822-44b9-9a5b-844132d5ff2b
+
+	measure 'AUM Display' = "₹" & FORMAT([Industry AUM Cr] / 100000, "0") & "L Cr"
+		lineageTag: 2906dcf7-cb55-40b3-b714-4616daae64db
+
+	measure 'SIP Display' = "₹" & FORMAT([SIP Inflow Cr] / 1000, "0") & "K Cr"
+		lineageTag: 9dbcfe60-ae82-4f52-a7c6-01ddef74564c
+
+	measure 'Folios Display' = FORMAT([Folios Count] / 10000000, "0.00") & " Cr"
+		lineageTag: 2e672ded-bc2e-4f4d-8134-acfb2e0f9cca
+
+	measure 'Schemes Display' = FORMAT([Schemes Count], "#,0")
+		lineageTag: f2064dd7-150b-489e-8032-20517aa31eff
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 9f6a4ed3-58cd-457d-8e7f-5dcb908c36ee
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column aum_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 95012f91-fb43-43c6-a1d1-c1bde9a49cbf
+		summarizeBy: sum
+		sourceColumn: aum_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column sip_inflow_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 6f0efb2c-0c4c-4596-a3c0-feac25f8ba99
+		summarizeBy: sum
+		sourceColumn: sip_inflow_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column folios
+		dataType: int64
+		formatString: #,0
+		lineageTag: c0bd0cd5-21be-4ab6-9c70-8d3313f0da78
+		summarizeBy: sum
+		sourceColumn: folios
+
+		annotation SummarizationSetBy = Automatic
+
+	column schemes
+		dataType: int64
+		formatString: #,0
+		lineageTag: 20b3a6d3-2634-4e8f-b193-b9f93bd9d951
+		summarizeBy: sum
+		sourceColumn: schemes
+
+		annotation SummarizationSetBy = Automatic
+
+	column nifty50
+		dataType: double
+		lineageTag: 5808bc9d-c6cc-43bb-860e-93d72e0e4218
+		summarizeBy: sum
+		sourceColumn: nifty50
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 212f460a-6b4c-4d06-a66d-dc45778d4b53
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Industry_Monthly = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_industry_monthly.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"date", type date}, {"aum_crore", type number}, {"sip_inflow_crore", type number}, {"folios", Int64.Type}, {"schemes", Int64.Type}, {"nifty50", type number}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

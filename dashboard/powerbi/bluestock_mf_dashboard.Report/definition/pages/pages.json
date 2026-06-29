@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "Industry_Overview",
+    "Fund_Performance",
+    "Investor_Analytics",
+    "SIP_Market_Trends",
+    "NAV_Detail"
+  ],
+  "activePageName": "Industry_Overview"
+}

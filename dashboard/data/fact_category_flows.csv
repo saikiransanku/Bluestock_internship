@@ -1,0 +1,385 @@
+date,category,gross_inflow_crore,outflow_crore,net_inflow_crore,fiscal_year,top5_fy25,data_status
+2022-01-31,Large Cap,1701.030000,666.870000,1034.160000,FY22,1,Deterministic illustrative category flow
+2022-01-31,Flexi Cap,2225.510000,883.350000,1342.160000,FY22,1,Deterministic illustrative category flow
+2022-01-31,Mid Cap,1653.930000,737.630000,916.300000,FY22,1,Deterministic illustrative category flow
+2022-01-31,Small Cap,1417.750000,501.810000,915.950000,FY22,1,Deterministic illustrative category flow
+2022-01-31,Hybrid,1475.370000,762.990000,712.380000,FY22,1,Deterministic illustrative category flow
+2022-01-31,Debt,1299.360000,848.100000,451.260000,FY22,0,Deterministic illustrative category flow
+2022-01-31,Index & ETF,1297.380000,498.490000,798.890000,FY22,0,Deterministic illustrative category flow
+2022-01-31,ELSS,656.040000,283.610000,372.430000,FY22,0,Deterministic illustrative category flow
+2022-02-28,Large Cap,2302.920000,1000.380000,1302.540000,FY22,1,Deterministic illustrative category flow
+2022-02-28,Flexi Cap,2447.090000,854.870000,1592.210000,FY22,1,Deterministic illustrative category flow
+2022-02-28,Mid Cap,1872.750000,732.580000,1140.170000,FY22,1,Deterministic illustrative category flow
+2022-02-28,Small Cap,1511.490000,540.330000,971.160000,FY22,1,Deterministic illustrative category flow
+2022-02-28,Hybrid,1630.600000,736.870000,893.740000,FY22,1,Deterministic illustrative category flow
+2022-02-28,Debt,1375.860000,908.840000,467.020000,FY22,0,Deterministic illustrative category flow
+2022-02-28,Index & ETF,1228.550000,456.110000,772.440000,FY22,0,Deterministic illustrative category flow
+2022-02-28,ELSS,817.700000,396.350000,421.350000,FY22,0,Deterministic illustrative category flow
+2022-03-31,Large Cap,2234.620000,899.630000,1334.990000,FY22,1,Deterministic illustrative category flow
+2022-03-31,Flexi Cap,2391.770000,748.770000,1643.000000,FY22,1,Deterministic illustrative category flow
+2022-03-31,Mid Cap,1649.800000,731.560000,918.240000,FY22,1,Deterministic illustrative category flow
+2022-03-31,Small Cap,1636.570000,571.000000,1065.570000,FY22,1,Deterministic illustrative category flow
+2022-03-31,Hybrid,1827.910000,889.910000,938.000000,FY22,1,Deterministic illustrative category flow
+2022-03-31,Debt,1399.640000,794.820000,604.820000,FY22,0,Deterministic illustrative category flow
+2022-03-31,Index & ETF,1234.470000,462.440000,772.030000,FY22,0,Deterministic illustrative category flow
+2022-03-31,ELSS,734.730000,342.490000,392.240000,FY22,0,Deterministic illustrative category flow
+2022-04-30,Large Cap,2534.900000,1172.880000,1362.010000,FY23,1,Deterministic illustrative category flow
+2022-04-30,Flexi Cap,2591.000000,920.280000,1670.720000,FY23,1,Deterministic illustrative category flow
+2022-04-30,Mid Cap,1977.510000,796.660000,1180.850000,FY23,1,Deterministic illustrative category flow
+2022-04-30,Small Cap,1915.660000,646.630000,1269.040000,FY23,1,Deterministic illustrative category flow
+2022-04-30,Hybrid,1795.590000,819.320000,976.270000,FY23,1,Deterministic illustrative category flow
+2022-04-30,Debt,1744.950000,1025.970000,718.980000,FY23,0,Deterministic illustrative category flow
+2022-04-30,Index & ETF,1393.360000,555.830000,837.520000,FY23,0,Deterministic illustrative category flow
+2022-04-30,ELSS,771.090000,319.670000,451.420000,FY23,0,Deterministic illustrative category flow
+2022-05-31,Large Cap,2071.300000,812.390000,1258.910000,FY23,1,Deterministic illustrative category flow
+2022-05-31,Flexi Cap,2192.790000,792.450000,1400.350000,FY23,1,Deterministic illustrative category flow
+2022-05-31,Mid Cap,1911.850000,711.720000,1200.120000,FY23,1,Deterministic illustrative category flow
+2022-05-31,Small Cap,1668.710000,541.480000,1127.240000,FY23,1,Deterministic illustrative category flow
+2022-05-31,Hybrid,1902.870000,1028.370000,874.500000,FY23,1,Deterministic illustrative category flow
+2022-05-31,Debt,1371.190000,877.290000,493.910000,FY23,0,Deterministic illustrative category flow
+2022-05-31,Index & ETF,1548.550000,594.990000,953.560000,FY23,0,Deterministic illustrative category flow
+2022-05-31,ELSS,877.760000,384.050000,493.700000,FY23,0,Deterministic illustrative category flow
+2022-06-30,Large Cap,2201.600000,890.980000,1310.620000,FY23,1,Deterministic illustrative category flow
+2022-06-30,Flexi Cap,2515.570000,913.080000,1602.490000,FY23,1,Deterministic illustrative category flow
+2022-06-30,Mid Cap,1833.100000,736.030000,1097.080000,FY23,1,Deterministic illustrative category flow
+2022-06-30,Small Cap,1634.940000,569.830000,1065.110000,FY23,1,Deterministic illustrative category flow
+2022-06-30,Hybrid,1695.890000,806.890000,889.010000,FY23,1,Deterministic illustrative category flow
+2022-06-30,Debt,1455.410000,830.270000,625.140000,FY23,0,Deterministic illustrative category flow
+2022-06-30,Index & ETF,1318.640000,487.410000,831.230000,FY23,0,Deterministic illustrative category flow
+2022-06-30,ELSS,801.650000,348.140000,453.500000,FY23,0,Deterministic illustrative category flow
+2022-07-31,Large Cap,2203.680000,831.040000,1372.630000,FY23,1,Deterministic illustrative category flow
+2022-07-31,Flexi Cap,2794.630000,1005.300000,1789.320000,FY23,1,Deterministic illustrative category flow
+2022-07-31,Mid Cap,1976.620000,860.210000,1116.420000,FY23,1,Deterministic illustrative category flow
+2022-07-31,Small Cap,1475.220000,494.660000,980.570000,FY23,1,Deterministic illustrative category flow
+2022-07-31,Hybrid,1587.180000,745.650000,841.530000,FY23,1,Deterministic illustrative category flow
+2022-07-31,Debt,1526.110000,879.950000,646.170000,FY23,0,Deterministic illustrative category flow
+2022-07-31,Index & ETF,1257.760000,483.290000,774.460000,FY23,0,Deterministic illustrative category flow
+2022-07-31,ELSS,731.000000,306.940000,424.060000,FY23,0,Deterministic illustrative category flow
+2022-08-31,Large Cap,1912.100000,883.770000,1028.330000,FY23,1,Deterministic illustrative category flow
+2022-08-31,Flexi Cap,2301.610000,770.880000,1530.730000,FY23,1,Deterministic illustrative category flow
+2022-08-31,Mid Cap,2058.290000,861.800000,1196.480000,FY23,1,Deterministic illustrative category flow
+2022-08-31,Small Cap,1560.180000,473.880000,1086.300000,FY23,1,Deterministic illustrative category flow
+2022-08-31,Hybrid,1535.340000,715.780000,819.560000,FY23,1,Deterministic illustrative category flow
+2022-08-31,Debt,1349.270000,783.120000,566.150000,FY23,0,Deterministic illustrative category flow
+2022-08-31,Index & ETF,1314.290000,546.580000,767.710000,FY23,0,Deterministic illustrative category flow
+2022-08-31,ELSS,697.890000,276.180000,421.710000,FY23,0,Deterministic illustrative category flow
+2022-09-30,Large Cap,2204.660000,932.940000,1271.720000,FY23,1,Deterministic illustrative category flow
+2022-09-30,Flexi Cap,2523.950000,878.090000,1645.860000,FY23,1,Deterministic illustrative category flow
+2022-09-30,Mid Cap,1771.220000,682.950000,1088.270000,FY23,1,Deterministic illustrative category flow
+2022-09-30,Small Cap,1536.970000,551.380000,985.580000,FY23,1,Deterministic illustrative category flow
+2022-09-30,Hybrid,1633.590000,708.000000,925.590000,FY23,1,Deterministic illustrative category flow
+2022-09-30,Debt,1571.150000,831.330000,739.810000,FY23,0,Deterministic illustrative category flow
+2022-09-30,Index & ETF,1250.880000,501.740000,749.140000,FY23,0,Deterministic illustrative category flow
+2022-09-30,ELSS,741.840000,354.330000,387.510000,FY23,0,Deterministic illustrative category flow
+2022-10-31,Large Cap,2347.110000,1054.520000,1292.580000,FY23,1,Deterministic illustrative category flow
+2022-10-31,Flexi Cap,2354.620000,832.050000,1522.570000,FY23,1,Deterministic illustrative category flow
+2022-10-31,Mid Cap,1962.710000,843.080000,1119.630000,FY23,1,Deterministic illustrative category flow
+2022-10-31,Small Cap,1571.140000,532.000000,1039.140000,FY23,1,Deterministic illustrative category flow
+2022-10-31,Hybrid,1817.990000,954.460000,863.530000,FY23,1,Deterministic illustrative category flow
+2022-10-31,Debt,1381.170000,839.830000,541.340000,FY23,0,Deterministic illustrative category flow
+2022-10-31,Index & ETF,1351.640000,496.340000,855.300000,FY23,0,Deterministic illustrative category flow
+2022-10-31,ELSS,741.000000,349.210000,391.790000,FY23,0,Deterministic illustrative category flow
+2022-11-30,Large Cap,2315.910000,967.170000,1348.740000,FY23,1,Deterministic illustrative category flow
+2022-11-30,Flexi Cap,2500.590000,912.510000,1588.080000,FY23,1,Deterministic illustrative category flow
+2022-11-30,Mid Cap,1999.000000,895.430000,1103.570000,FY23,1,Deterministic illustrative category flow
+2022-11-30,Small Cap,1574.390000,519.660000,1054.730000,FY23,1,Deterministic illustrative category flow
+2022-11-30,Hybrid,1477.650000,695.460000,782.200000,FY23,1,Deterministic illustrative category flow
+2022-11-30,Debt,1485.540000,800.400000,685.140000,FY23,0,Deterministic illustrative category flow
+2022-11-30,Index & ETF,1386.850000,506.190000,880.660000,FY23,0,Deterministic illustrative category flow
+2022-11-30,ELSS,883.200000,390.170000,493.040000,FY23,0,Deterministic illustrative category flow
+2022-12-31,Large Cap,2395.240000,1013.400000,1381.850000,FY23,1,Deterministic illustrative category flow
+2022-12-31,Flexi Cap,2725.290000,920.550000,1804.730000,FY23,1,Deterministic illustrative category flow
+2022-12-31,Mid Cap,2174.940000,901.570000,1273.370000,FY23,1,Deterministic illustrative category flow
+2022-12-31,Small Cap,1803.670000,584.180000,1219.490000,FY23,1,Deterministic illustrative category flow
+2022-12-31,Hybrid,2054.810000,940.340000,1114.480000,FY23,1,Deterministic illustrative category flow
+2022-12-31,Debt,1765.000000,1066.120000,698.880000,FY23,0,Deterministic illustrative category flow
+2022-12-31,Index & ETF,1499.480000,496.400000,1003.080000,FY23,0,Deterministic illustrative category flow
+2022-12-31,ELSS,786.780000,366.700000,420.070000,FY23,0,Deterministic illustrative category flow
+2023-01-31,Large Cap,2954.380000,1165.630000,1788.750000,FY23,1,Deterministic illustrative category flow
+2023-01-31,Flexi Cap,2956.560000,1105.100000,1851.460000,FY23,1,Deterministic illustrative category flow
+2023-01-31,Mid Cap,2059.040000,789.390000,1269.640000,FY23,1,Deterministic illustrative category flow
+2023-01-31,Small Cap,2063.320000,651.440000,1411.880000,FY23,1,Deterministic illustrative category flow
+2023-01-31,Hybrid,2150.100000,948.200000,1201.900000,FY23,1,Deterministic illustrative category flow
+2023-01-31,Debt,1564.220000,957.230000,606.990000,FY23,0,Deterministic illustrative category flow
+2023-01-31,Index & ETF,1508.040000,564.070000,943.970000,FY23,0,Deterministic illustrative category flow
+2023-01-31,ELSS,795.250000,382.620000,412.630000,FY23,0,Deterministic illustrative category flow
+2023-02-28,Large Cap,2644.380000,1081.370000,1563.010000,FY23,1,Deterministic illustrative category flow
+2023-02-28,Flexi Cap,2742.710000,969.680000,1773.030000,FY23,1,Deterministic illustrative category flow
+2023-02-28,Mid Cap,2455.540000,1062.260000,1393.280000,FY23,1,Deterministic illustrative category flow
+2023-02-28,Small Cap,2012.580000,656.820000,1355.760000,FY23,1,Deterministic illustrative category flow
+2023-02-28,Hybrid,2374.960000,1117.870000,1257.090000,FY23,1,Deterministic illustrative category flow
+2023-02-28,Debt,1914.660000,1234.090000,680.570000,FY23,0,Deterministic illustrative category flow
+2023-02-28,Index & ETF,1645.770000,646.000000,999.760000,FY23,0,Deterministic illustrative category flow
+2023-02-28,ELSS,959.450000,437.310000,522.140000,FY23,0,Deterministic illustrative category flow
+2023-03-31,Large Cap,3066.780000,1388.060000,1678.710000,FY23,1,Deterministic illustrative category flow
+2023-03-31,Flexi Cap,2998.070000,1086.440000,1911.630000,FY23,1,Deterministic illustrative category flow
+2023-03-31,Mid Cap,2661.790000,1289.300000,1372.490000,FY23,1,Deterministic illustrative category flow
+2023-03-31,Small Cap,2183.630000,734.680000,1448.950000,FY23,1,Deterministic illustrative category flow
+2023-03-31,Hybrid,2266.600000,1170.750000,1095.860000,FY23,1,Deterministic illustrative category flow
+2023-03-31,Debt,2060.060000,1193.700000,866.360000,FY23,0,Deterministic illustrative category flow
+2023-03-31,Index & ETF,1743.020000,653.090000,1089.940000,FY23,0,Deterministic illustrative category flow
+2023-03-31,ELSS,853.220000,369.800000,483.420000,FY23,0,Deterministic illustrative category flow
+2023-04-30,Large Cap,2866.030000,1267.740000,1598.290000,FY24,1,Deterministic illustrative category flow
+2023-04-30,Flexi Cap,3826.160000,1268.530000,2557.630000,FY24,1,Deterministic illustrative category flow
+2023-04-30,Mid Cap,2570.330000,997.280000,1573.050000,FY24,1,Deterministic illustrative category flow
+2023-04-30,Small Cap,2320.170000,724.020000,1596.150000,FY24,1,Deterministic illustrative category flow
+2023-04-30,Hybrid,3019.220000,1508.870000,1510.350000,FY24,1,Deterministic illustrative category flow
+2023-04-30,Debt,1838.090000,1062.130000,775.960000,FY24,0,Deterministic illustrative category flow
+2023-04-30,Index & ETF,1558.630000,628.430000,930.200000,FY24,0,Deterministic illustrative category flow
+2023-04-30,ELSS,1060.120000,487.830000,572.290000,FY24,0,Deterministic illustrative category flow
+2023-05-31,Large Cap,2958.010000,1077.480000,1880.530000,FY24,1,Deterministic illustrative category flow
+2023-05-31,Flexi Cap,3508.770000,1195.900000,2312.870000,FY24,1,Deterministic illustrative category flow
+2023-05-31,Mid Cap,2639.510000,1154.670000,1484.830000,FY24,1,Deterministic illustrative category flow
+2023-05-31,Small Cap,2414.630000,744.410000,1670.220000,FY24,1,Deterministic illustrative category flow
+2023-05-31,Hybrid,2132.310000,982.050000,1150.260000,FY24,1,Deterministic illustrative category flow
+2023-05-31,Debt,1945.150000,1207.850000,737.300000,FY24,0,Deterministic illustrative category flow
+2023-05-31,Index & ETF,1779.490000,614.180000,1165.310000,FY24,0,Deterministic illustrative category flow
+2023-05-31,ELSS,1132.070000,547.430000,584.640000,FY24,0,Deterministic illustrative category flow
+2023-06-30,Large Cap,2662.130000,1154.490000,1507.640000,FY24,1,Deterministic illustrative category flow
+2023-06-30,Flexi Cap,3725.620000,1458.690000,2266.930000,FY24,1,Deterministic illustrative category flow
+2023-06-30,Mid Cap,2412.500000,985.360000,1427.140000,FY24,1,Deterministic illustrative category flow
+2023-06-30,Small Cap,2072.940000,671.650000,1401.290000,FY24,1,Deterministic illustrative category flow
+2023-06-30,Hybrid,2309.730000,1028.160000,1281.560000,FY24,1,Deterministic illustrative category flow
+2023-06-30,Debt,2205.120000,1278.210000,926.910000,FY24,0,Deterministic illustrative category flow
+2023-06-30,Index & ETF,1720.140000,636.650000,1083.490000,FY24,0,Deterministic illustrative category flow
+2023-06-30,ELSS,1186.680000,576.250000,610.430000,FY24,0,Deterministic illustrative category flow
+2023-07-31,Large Cap,2815.730000,1078.170000,1737.560000,FY24,1,Deterministic illustrative category flow
+2023-07-31,Flexi Cap,3295.900000,1166.620000,2129.280000,FY24,1,Deterministic illustrative category flow
+2023-07-31,Mid Cap,2294.670000,928.330000,1366.350000,FY24,1,Deterministic illustrative category flow
+2023-07-31,Small Cap,2011.610000,650.140000,1361.470000,FY24,1,Deterministic illustrative category flow
+2023-07-31,Hybrid,2297.560000,1100.290000,1197.270000,FY24,1,Deterministic illustrative category flow
+2023-07-31,Debt,2124.610000,1284.780000,839.830000,FY24,0,Deterministic illustrative category flow
+2023-07-31,Index & ETF,1834.200000,557.530000,1276.680000,FY24,0,Deterministic illustrative category flow
+2023-07-31,ELSS,859.950000,405.850000,454.100000,FY24,0,Deterministic illustrative category flow
+2023-08-31,Large Cap,2453.210000,947.140000,1506.070000,FY24,1,Deterministic illustrative category flow
+2023-08-31,Flexi Cap,3274.530000,1192.280000,2082.260000,FY24,1,Deterministic illustrative category flow
+2023-08-31,Mid Cap,2136.970000,788.470000,1348.500000,FY24,1,Deterministic illustrative category flow
+2023-08-31,Small Cap,2238.070000,669.650000,1568.410000,FY24,1,Deterministic illustrative category flow
+2023-08-31,Hybrid,2049.760000,970.820000,1078.940000,FY24,1,Deterministic illustrative category flow
+2023-08-31,Debt,1962.650000,1361.300000,601.350000,FY24,0,Deterministic illustrative category flow
+2023-08-31,Index & ETF,1723.120000,693.250000,1029.870000,FY24,0,Deterministic illustrative category flow
+2023-08-31,ELSS,1043.620000,477.430000,566.190000,FY24,0,Deterministic illustrative category flow
+2023-09-30,Large Cap,3037.900000,1250.890000,1787.010000,FY24,1,Deterministic illustrative category flow
+2023-09-30,Flexi Cap,2776.520000,1058.610000,1717.910000,FY24,1,Deterministic illustrative category flow
+2023-09-30,Mid Cap,2397.130000,1072.100000,1325.030000,FY24,1,Deterministic illustrative category flow
+2023-09-30,Small Cap,2021.040000,627.350000,1393.690000,FY24,1,Deterministic illustrative category flow
+2023-09-30,Hybrid,2162.980000,966.400000,1196.580000,FY24,1,Deterministic illustrative category flow
+2023-09-30,Debt,1818.810000,1111.080000,707.730000,FY24,0,Deterministic illustrative category flow
+2023-09-30,Index & ETF,1546.400000,579.220000,967.180000,FY24,0,Deterministic illustrative category flow
+2023-09-30,ELSS,1048.140000,433.610000,614.530000,FY24,0,Deterministic illustrative category flow
+2023-10-31,Large Cap,2657.810000,1113.090000,1544.730000,FY24,1,Deterministic illustrative category flow
+2023-10-31,Flexi Cap,2861.740000,1100.360000,1761.380000,FY24,1,Deterministic illustrative category flow
+2023-10-31,Mid Cap,2603.420000,946.410000,1657.000000,FY24,1,Deterministic illustrative category flow
+2023-10-31,Small Cap,1672.000000,585.870000,1086.130000,FY24,1,Deterministic illustrative category flow
+2023-10-31,Hybrid,2398.060000,948.660000,1449.400000,FY24,1,Deterministic illustrative category flow
+2023-10-31,Debt,1939.730000,1136.280000,803.450000,FY24,0,Deterministic illustrative category flow
+2023-10-31,Index & ETF,1670.250000,601.900000,1068.350000,FY24,0,Deterministic illustrative category flow
+2023-10-31,ELSS,985.320000,477.970000,507.350000,FY24,0,Deterministic illustrative category flow
+2023-11-30,Large Cap,2967.650000,1298.940000,1668.710000,FY24,1,Deterministic illustrative category flow
+2023-11-30,Flexi Cap,3575.720000,1179.050000,2396.670000,FY24,1,Deterministic illustrative category flow
+2023-11-30,Mid Cap,2435.560000,1037.860000,1397.700000,FY24,1,Deterministic illustrative category flow
+2023-11-30,Small Cap,2137.930000,846.840000,1291.100000,FY24,1,Deterministic illustrative category flow
+2023-11-30,Hybrid,2441.650000,1016.720000,1424.930000,FY24,1,Deterministic illustrative category flow
+2023-11-30,Debt,2106.090000,1199.780000,906.310000,FY24,0,Deterministic illustrative category flow
+2023-11-30,Index & ETF,1849.080000,762.070000,1087.010000,FY24,0,Deterministic illustrative category flow
+2023-11-30,ELSS,1092.830000,472.720000,620.110000,FY24,0,Deterministic illustrative category flow
+2023-12-31,Large Cap,3227.740000,1369.980000,1857.760000,FY24,1,Deterministic illustrative category flow
+2023-12-31,Flexi Cap,3789.600000,1214.430000,2575.160000,FY24,1,Deterministic illustrative category flow
+2023-12-31,Mid Cap,2971.770000,1239.340000,1732.430000,FY24,1,Deterministic illustrative category flow
+2023-12-31,Small Cap,2352.760000,735.900000,1616.860000,FY24,1,Deterministic illustrative category flow
+2023-12-31,Hybrid,2629.010000,1393.180000,1235.830000,FY24,1,Deterministic illustrative category flow
+2023-12-31,Debt,1931.760000,1040.100000,891.660000,FY24,0,Deterministic illustrative category flow
+2023-12-31,Index & ETF,1638.740000,691.700000,947.050000,FY24,0,Deterministic illustrative category flow
+2023-12-31,ELSS,1180.960000,593.640000,587.310000,FY24,0,Deterministic illustrative category flow
+2024-01-31,Large Cap,3738.860000,1531.310000,2207.550000,FY24,1,Deterministic illustrative category flow
+2024-01-31,Flexi Cap,3837.090000,1215.720000,2621.370000,FY24,1,Deterministic illustrative category flow
+2024-01-31,Mid Cap,2495.550000,930.760000,1564.790000,FY24,1,Deterministic illustrative category flow
+2024-01-31,Small Cap,2749.760000,848.840000,1900.910000,FY24,1,Deterministic illustrative category flow
+2024-01-31,Hybrid,2711.340000,1195.110000,1516.230000,FY24,1,Deterministic illustrative category flow
+2024-01-31,Debt,1903.980000,1048.700000,855.280000,FY24,0,Deterministic illustrative category flow
+2024-01-31,Index & ETF,2358.740000,922.900000,1435.830000,FY24,0,Deterministic illustrative category flow
+2024-01-31,ELSS,1337.590000,553.930000,783.660000,FY24,0,Deterministic illustrative category flow
+2024-02-29,Large Cap,4023.690000,1590.410000,2433.280000,FY24,1,Deterministic illustrative category flow
+2024-02-29,Flexi Cap,4857.840000,1933.670000,2924.170000,FY24,1,Deterministic illustrative category flow
+2024-02-29,Mid Cap,3181.130000,1280.300000,1900.820000,FY24,1,Deterministic illustrative category flow
+2024-02-29,Small Cap,2710.990000,1013.300000,1697.690000,FY24,1,Deterministic illustrative category flow
+2024-02-29,Hybrid,3017.800000,1370.450000,1647.350000,FY24,1,Deterministic illustrative category flow
+2024-02-29,Debt,2624.190000,1430.090000,1194.100000,FY24,0,Deterministic illustrative category flow
+2024-02-29,Index & ETF,2305.780000,866.660000,1439.120000,FY24,0,Deterministic illustrative category flow
+2024-02-29,ELSS,1255.080000,543.660000,711.420000,FY24,0,Deterministic illustrative category flow
+2024-03-31,Large Cap,4121.110000,1606.080000,2515.030000,FY24,1,Deterministic illustrative category flow
+2024-03-31,Flexi Cap,3937.340000,1434.480000,2502.860000,FY24,1,Deterministic illustrative category flow
+2024-03-31,Mid Cap,3068.660000,1336.120000,1732.540000,FY24,1,Deterministic illustrative category flow
+2024-03-31,Small Cap,2724.690000,950.630000,1774.050000,FY24,1,Deterministic illustrative category flow
+2024-03-31,Hybrid,2774.500000,1428.780000,1345.720000,FY24,1,Deterministic illustrative category flow
+2024-03-31,Debt,2488.590000,1529.560000,959.040000,FY24,0,Deterministic illustrative category flow
+2024-03-31,Index & ETF,2212.580000,840.340000,1372.240000,FY24,0,Deterministic illustrative category flow
+2024-03-31,ELSS,1414.100000,585.280000,828.820000,FY24,0,Deterministic illustrative category flow
+2024-04-30,Large Cap,3798.600000,1457.270000,2341.330000,FY25,1,Deterministic illustrative category flow
+2024-04-30,Flexi Cap,3887.280000,1477.410000,2409.880000,FY25,1,Deterministic illustrative category flow
+2024-04-30,Mid Cap,3429.560000,1411.810000,2017.750000,FY25,1,Deterministic illustrative category flow
+2024-04-30,Small Cap,2808.580000,982.760000,1825.820000,FY25,1,Deterministic illustrative category flow
+2024-04-30,Hybrid,3088.920000,1247.300000,1841.620000,FY25,1,Deterministic illustrative category flow
+2024-04-30,Debt,3102.390000,1596.930000,1505.460000,FY25,0,Deterministic illustrative category flow
+2024-04-30,Index & ETF,2454.740000,994.550000,1460.200000,FY25,0,Deterministic illustrative category flow
+2024-04-30,ELSS,1467.670000,621.830000,845.840000,FY25,0,Deterministic illustrative category flow
+2024-05-31,Large Cap,3400.350000,1560.800000,1839.550000,FY25,1,Deterministic illustrative category flow
+2024-05-31,Flexi Cap,5062.200000,1801.410000,3260.790000,FY25,1,Deterministic illustrative category flow
+2024-05-31,Mid Cap,3113.160000,1316.050000,1797.110000,FY25,1,Deterministic illustrative category flow
+2024-05-31,Small Cap,3385.840000,1182.780000,2203.060000,FY25,1,Deterministic illustrative category flow
+2024-05-31,Hybrid,2729.680000,1328.240000,1401.440000,FY25,1,Deterministic illustrative category flow
+2024-05-31,Debt,2407.920000,1411.020000,996.900000,FY25,0,Deterministic illustrative category flow
+2024-05-31,Index & ETF,2368.230000,943.850000,1424.380000,FY25,0,Deterministic illustrative category flow
+2024-05-31,ELSS,1407.350000,594.270000,813.080000,FY25,0,Deterministic illustrative category flow
+2024-06-30,Large Cap,3957.250000,1596.420000,2360.830000,FY25,1,Deterministic illustrative category flow
+2024-06-30,Flexi Cap,4357.230000,1454.230000,2903.000000,FY25,1,Deterministic illustrative category flow
+2024-06-30,Mid Cap,3750.450000,1560.290000,2190.160000,FY25,1,Deterministic illustrative category flow
+2024-06-30,Small Cap,2467.220000,822.910000,1644.310000,FY25,1,Deterministic illustrative category flow
+2024-06-30,Hybrid,2684.490000,1195.520000,1488.970000,FY25,1,Deterministic illustrative category flow
+2024-06-30,Debt,2547.680000,1586.590000,961.090000,FY25,0,Deterministic illustrative category flow
+2024-06-30,Index & ETF,2520.520000,1009.960000,1510.560000,FY25,0,Deterministic illustrative category flow
+2024-06-30,ELSS,1379.050000,651.910000,727.140000,FY25,0,Deterministic illustrative category flow
+2024-07-31,Large Cap,3341.200000,1381.120000,1960.080000,FY25,1,Deterministic illustrative category flow
+2024-07-31,Flexi Cap,4501.710000,1590.830000,2910.880000,FY25,1,Deterministic illustrative category flow
+2024-07-31,Mid Cap,2970.900000,1249.390000,1721.510000,FY25,1,Deterministic illustrative category flow
+2024-07-31,Small Cap,2339.520000,759.380000,1580.150000,FY25,1,Deterministic illustrative category flow
+2024-07-31,Hybrid,2752.440000,1248.790000,1503.650000,FY25,1,Deterministic illustrative category flow
+2024-07-31,Debt,2567.740000,1392.530000,1175.210000,FY25,0,Deterministic illustrative category flow
+2024-07-31,Index & ETF,2254.280000,935.470000,1318.810000,FY25,0,Deterministic illustrative category flow
+2024-07-31,ELSS,1395.100000,582.500000,812.600000,FY25,0,Deterministic illustrative category flow
+2024-08-31,Large Cap,3571.610000,1503.420000,2068.190000,FY25,1,Deterministic illustrative category flow
+2024-08-31,Flexi Cap,3465.960000,1094.620000,2371.340000,FY25,1,Deterministic illustrative category flow
+2024-08-31,Mid Cap,3265.550000,1376.940000,1888.610000,FY25,1,Deterministic illustrative category flow
+2024-08-31,Small Cap,2611.040000,835.330000,1775.710000,FY25,1,Deterministic illustrative category flow
+2024-08-31,Hybrid,2836.030000,1367.820000,1468.210000,FY25,1,Deterministic illustrative category flow
+2024-08-31,Debt,2619.630000,1469.220000,1150.410000,FY25,0,Deterministic illustrative category flow
+2024-08-31,Index & ETF,2109.870000,864.430000,1245.440000,FY25,0,Deterministic illustrative category flow
+2024-08-31,ELSS,1271.750000,501.410000,770.340000,FY25,0,Deterministic illustrative category flow
+2024-09-30,Large Cap,3118.320000,1240.430000,1877.890000,FY25,1,Deterministic illustrative category flow
+2024-09-30,Flexi Cap,4027.870000,1544.750000,2483.110000,FY25,1,Deterministic illustrative category flow
+2024-09-30,Mid Cap,2657.080000,1196.220000,1460.860000,FY25,1,Deterministic illustrative category flow
+2024-09-30,Small Cap,2429.250000,859.560000,1569.690000,FY25,1,Deterministic illustrative category flow
+2024-09-30,Hybrid,2462.190000,1051.140000,1411.060000,FY25,1,Deterministic illustrative category flow
+2024-09-30,Debt,2142.520000,1257.860000,884.660000,FY25,0,Deterministic illustrative category flow
+2024-09-30,Index & ETF,2256.560000,1060.600000,1195.960000,FY25,0,Deterministic illustrative category flow
+2024-09-30,ELSS,1292.940000,620.620000,672.320000,FY25,0,Deterministic illustrative category flow
+2024-10-31,Large Cap,3464.890000,1524.350000,1940.540000,FY25,1,Deterministic illustrative category flow
+2024-10-31,Flexi Cap,4328.100000,1415.590000,2912.510000,FY25,1,Deterministic illustrative category flow
+2024-10-31,Mid Cap,3072.600000,1230.960000,1841.640000,FY25,1,Deterministic illustrative category flow
+2024-10-31,Small Cap,2770.460000,947.630000,1822.820000,FY25,1,Deterministic illustrative category flow
+2024-10-31,Hybrid,2750.660000,1356.380000,1394.280000,FY25,1,Deterministic illustrative category flow
+2024-10-31,Debt,2460.510000,1280.940000,1179.570000,FY25,0,Deterministic illustrative category flow
+2024-10-31,Index & ETF,2424.090000,1006.420000,1417.660000,FY25,0,Deterministic illustrative category flow
+2024-10-31,ELSS,1370.600000,626.470000,744.120000,FY25,0,Deterministic illustrative category flow
+2024-11-30,Large Cap,3853.400000,1663.070000,2190.330000,FY25,1,Deterministic illustrative category flow
+2024-11-30,Flexi Cap,4199.030000,1732.710000,2466.310000,FY25,1,Deterministic illustrative category flow
+2024-11-30,Mid Cap,3145.010000,1211.840000,1933.170000,FY25,1,Deterministic illustrative category flow
+2024-11-30,Small Cap,2855.850000,915.100000,1940.740000,FY25,1,Deterministic illustrative category flow
+2024-11-30,Hybrid,3245.020000,1568.330000,1676.690000,FY25,1,Deterministic illustrative category flow
+2024-11-30,Debt,2461.980000,1334.490000,1127.490000,FY25,0,Deterministic illustrative category flow
+2024-11-30,Index & ETF,2377.680000,920.960000,1456.720000,FY25,0,Deterministic illustrative category flow
+2024-11-30,ELSS,1100.010000,473.920000,626.090000,FY25,0,Deterministic illustrative category flow
+2024-12-31,Large Cap,4463.430000,1939.790000,2523.640000,FY25,1,Deterministic illustrative category flow
+2024-12-31,Flexi Cap,4444.960000,1512.120000,2932.840000,FY25,1,Deterministic illustrative category flow
+2024-12-31,Mid Cap,3731.320000,1430.630000,2300.690000,FY25,1,Deterministic illustrative category flow
+2024-12-31,Small Cap,3091.360000,983.480000,2107.880000,FY25,1,Deterministic illustrative category flow
+2024-12-31,Hybrid,3051.180000,1534.060000,1517.120000,FY25,1,Deterministic illustrative category flow
+2024-12-31,Debt,2444.920000,1406.710000,1038.210000,FY25,0,Deterministic illustrative category flow
+2024-12-31,Index & ETF,2495.180000,929.970000,1565.220000,FY25,0,Deterministic illustrative category flow
+2024-12-31,ELSS,1400.740000,631.280000,769.460000,FY25,0,Deterministic illustrative category flow
+2025-01-31,Large Cap,4493.430000,2041.560000,2451.870000,FY25,1,Deterministic illustrative category flow
+2025-01-31,Flexi Cap,3914.560000,1558.660000,2355.900000,FY25,1,Deterministic illustrative category flow
+2025-01-31,Mid Cap,3443.130000,1364.150000,2078.980000,FY25,1,Deterministic illustrative category flow
+2025-01-31,Small Cap,3635.320000,1281.050000,2354.270000,FY25,1,Deterministic illustrative category flow
+2025-01-31,Hybrid,3381.170000,1668.460000,1712.710000,FY25,1,Deterministic illustrative category flow
+2025-01-31,Debt,2708.210000,1845.000000,863.210000,FY25,0,Deterministic illustrative category flow
+2025-01-31,Index & ETF,2352.550000,957.660000,1394.880000,FY25,0,Deterministic illustrative category flow
+2025-01-31,ELSS,1525.840000,703.910000,821.940000,FY25,0,Deterministic illustrative category flow
+2025-02-28,Large Cap,4296.410000,1670.120000,2626.290000,FY25,1,Deterministic illustrative category flow
+2025-02-28,Flexi Cap,5832.180000,1925.310000,3906.870000,FY25,1,Deterministic illustrative category flow
+2025-02-28,Mid Cap,4000.470000,1437.630000,2562.840000,FY25,1,Deterministic illustrative category flow
+2025-02-28,Small Cap,3302.350000,1125.770000,2176.580000,FY25,1,Deterministic illustrative category flow
+2025-02-28,Hybrid,3570.180000,1862.800000,1707.380000,FY25,1,Deterministic illustrative category flow
+2025-02-28,Debt,3408.720000,2008.970000,1399.750000,FY25,0,Deterministic illustrative category flow
+2025-02-28,Index & ETF,2776.900000,1000.090000,1776.810000,FY25,0,Deterministic illustrative category flow
+2025-02-28,ELSS,1690.070000,779.700000,910.380000,FY25,0,Deterministic illustrative category flow
+2025-03-31,Large Cap,5471.010000,2421.030000,3049.990000,FY25,1,Deterministic illustrative category flow
+2025-03-31,Flexi Cap,5699.960000,2118.060000,3581.910000,FY25,1,Deterministic illustrative category flow
+2025-03-31,Mid Cap,4124.340000,1621.360000,2502.970000,FY25,1,Deterministic illustrative category flow
+2025-03-31,Small Cap,3657.660000,1251.370000,2406.280000,FY25,1,Deterministic illustrative category flow
+2025-03-31,Hybrid,3984.260000,1694.200000,2290.060000,FY25,1,Deterministic illustrative category flow
+2025-03-31,Debt,3206.420000,2063.480000,1142.940000,FY25,0,Deterministic illustrative category flow
+2025-03-31,Index & ETF,2971.050000,1064.270000,1906.780000,FY25,0,Deterministic illustrative category flow
+2025-03-31,ELSS,1596.180000,647.440000,948.730000,FY25,0,Deterministic illustrative category flow
+2025-04-30,Large Cap,4768.950000,1929.030000,2839.930000,FY26,1,Deterministic illustrative category flow
+2025-04-30,Flexi Cap,5640.970000,2153.140000,3487.830000,FY26,1,Deterministic illustrative category flow
+2025-04-30,Mid Cap,4336.060000,1878.490000,2457.570000,FY26,1,Deterministic illustrative category flow
+2025-04-30,Small Cap,4021.920000,1301.240000,2720.680000,FY26,1,Deterministic illustrative category flow
+2025-04-30,Hybrid,3865.400000,1938.330000,1927.070000,FY26,1,Deterministic illustrative category flow
+2025-04-30,Debt,3169.540000,1809.910000,1359.630000,FY26,0,Deterministic illustrative category flow
+2025-04-30,Index & ETF,2664.430000,1103.890000,1560.540000,FY26,0,Deterministic illustrative category flow
+2025-04-30,ELSS,1825.200000,758.680000,1066.520000,FY26,0,Deterministic illustrative category flow
+2025-05-31,Large Cap,4855.000000,2168.700000,2686.300000,FY26,1,Deterministic illustrative category flow
+2025-05-31,Flexi Cap,4887.680000,1814.530000,3073.150000,FY26,1,Deterministic illustrative category flow
+2025-05-31,Mid Cap,3763.800000,1464.700000,2299.100000,FY26,1,Deterministic illustrative category flow
+2025-05-31,Small Cap,3967.600000,1410.320000,2557.280000,FY26,1,Deterministic illustrative category flow
+2025-05-31,Hybrid,3746.240000,1722.370000,2023.870000,FY26,1,Deterministic illustrative category flow
+2025-05-31,Debt,3059.430000,1813.850000,1245.580000,FY26,0,Deterministic illustrative category flow
+2025-05-31,Index & ETF,2888.450000,1089.880000,1798.570000,FY26,0,Deterministic illustrative category flow
+2025-05-31,ELSS,1940.270000,978.430000,961.840000,FY26,0,Deterministic illustrative category flow
+2025-06-30,Large Cap,4426.810000,1755.480000,2671.340000,FY26,1,Deterministic illustrative category flow
+2025-06-30,Flexi Cap,5723.590000,2302.670000,3420.910000,FY26,1,Deterministic illustrative category flow
+2025-06-30,Mid Cap,4228.360000,1715.120000,2513.250000,FY26,1,Deterministic illustrative category flow
+2025-06-30,Small Cap,3005.670000,1076.270000,1929.390000,FY26,1,Deterministic illustrative category flow
+2025-06-30,Hybrid,3551.970000,1726.490000,1825.470000,FY26,1,Deterministic illustrative category flow
+2025-06-30,Debt,2738.310000,1520.100000,1218.210000,FY26,0,Deterministic illustrative category flow
+2025-06-30,Index & ETF,2552.840000,1021.480000,1531.360000,FY26,0,Deterministic illustrative category flow
+2025-06-30,ELSS,1622.460000,670.250000,952.220000,FY26,0,Deterministic illustrative category flow
+2025-07-31,Large Cap,4599.020000,1939.190000,2659.830000,FY26,1,Deterministic illustrative category flow
+2025-07-31,Flexi Cap,4784.420000,1740.120000,3044.300000,FY26,1,Deterministic illustrative category flow
+2025-07-31,Mid Cap,4122.920000,1767.700000,2355.220000,FY26,1,Deterministic illustrative category flow
+2025-07-31,Small Cap,3752.290000,1302.690000,2449.610000,FY26,1,Deterministic illustrative category flow
+2025-07-31,Hybrid,3379.170000,1601.250000,1777.920000,FY26,1,Deterministic illustrative category flow
+2025-07-31,Debt,3193.870000,1900.960000,1292.910000,FY26,0,Deterministic illustrative category flow
+2025-07-31,Index & ETF,2462.720000,986.060000,1476.660000,FY26,0,Deterministic illustrative category flow
+2025-07-31,ELSS,1572.360000,703.750000,868.600000,FY26,0,Deterministic illustrative category flow
+2025-08-31,Large Cap,4113.510000,1814.290000,2299.220000,FY26,1,Deterministic illustrative category flow
+2025-08-31,Flexi Cap,4375.280000,1510.320000,2864.950000,FY26,1,Deterministic illustrative category flow
+2025-08-31,Mid Cap,4497.350000,1909.550000,2587.800000,FY26,1,Deterministic illustrative category flow
+2025-08-31,Small Cap,3012.440000,963.460000,2048.980000,FY26,1,Deterministic illustrative category flow
+2025-08-31,Hybrid,3525.950000,1695.760000,1830.200000,FY26,1,Deterministic illustrative category flow
+2025-08-31,Debt,2618.060000,1466.810000,1151.240000,FY26,0,Deterministic illustrative category flow
+2025-08-31,Index & ETF,2370.800000,897.830000,1472.980000,FY26,0,Deterministic illustrative category flow
+2025-08-31,ELSS,1645.520000,766.760000,878.760000,FY26,0,Deterministic illustrative category flow
+2025-09-30,Large Cap,3877.440000,1576.560000,2300.880000,FY26,1,Deterministic illustrative category flow
+2025-09-30,Flexi Cap,4657.950000,1828.270000,2829.680000,FY26,1,Deterministic illustrative category flow
+2025-09-30,Mid Cap,2754.670000,1141.570000,1613.100000,FY26,1,Deterministic illustrative category flow
+2025-09-30,Small Cap,3169.370000,998.430000,2170.950000,FY26,1,Deterministic illustrative category flow
+2025-09-30,Hybrid,3566.670000,1762.600000,1804.070000,FY26,1,Deterministic illustrative category flow
+2025-09-30,Debt,3099.040000,1736.620000,1362.430000,FY26,0,Deterministic illustrative category flow
+2025-09-30,Index & ETF,2656.950000,868.270000,1788.680000,FY26,0,Deterministic illustrative category flow
+2025-09-30,ELSS,1630.710000,719.480000,911.220000,FY26,0,Deterministic illustrative category flow
+2025-10-31,Large Cap,4466.220000,1777.020000,2689.200000,FY26,1,Deterministic illustrative category flow
+2025-10-31,Flexi Cap,5281.360000,1986.070000,3295.290000,FY26,1,Deterministic illustrative category flow
+2025-10-31,Mid Cap,3625.280000,1454.320000,2170.960000,FY26,1,Deterministic illustrative category flow
+2025-10-31,Small Cap,3216.020000,1054.560000,2161.460000,FY26,1,Deterministic illustrative category flow
+2025-10-31,Hybrid,3559.120000,1565.870000,1993.250000,FY26,1,Deterministic illustrative category flow
+2025-10-31,Debt,2656.490000,1463.550000,1192.950000,FY26,0,Deterministic illustrative category flow
+2025-10-31,Index & ETF,2893.210000,1130.670000,1762.540000,FY26,0,Deterministic illustrative category flow
+2025-10-31,ELSS,1694.590000,768.260000,926.340000,FY26,0,Deterministic illustrative category flow
+2025-11-30,Large Cap,4338.730000,1997.340000,2341.390000,FY26,1,Deterministic illustrative category flow
+2025-11-30,Flexi Cap,4707.680000,1614.560000,3093.120000,FY26,1,Deterministic illustrative category flow
+2025-11-30,Mid Cap,4062.260000,1682.020000,2380.250000,FY26,1,Deterministic illustrative category flow
+2025-11-30,Small Cap,3230.410000,1047.170000,2183.240000,FY26,1,Deterministic illustrative category flow
+2025-11-30,Hybrid,3739.260000,1781.040000,1958.220000,FY26,1,Deterministic illustrative category flow
+2025-11-30,Debt,3565.930000,1899.680000,1666.250000,FY26,0,Deterministic illustrative category flow
+2025-11-30,Index & ETF,2587.020000,954.940000,1632.080000,FY26,0,Deterministic illustrative category flow
+2025-11-30,ELSS,1830.800000,840.530000,990.270000,FY26,0,Deterministic illustrative category flow
+2025-12-31,Large Cap,5124.620000,2115.130000,3009.490000,FY26,1,Deterministic illustrative category flow
+2025-12-31,Flexi Cap,5856.330000,2138.120000,3718.220000,FY26,1,Deterministic illustrative category flow
+2025-12-31,Mid Cap,4559.990000,1837.880000,2722.110000,FY26,1,Deterministic illustrative category flow
+2025-12-31,Small Cap,3725.390000,1257.250000,2468.130000,FY26,1,Deterministic illustrative category flow
+2025-12-31,Hybrid,3924.210000,1639.340000,2284.870000,FY26,1,Deterministic illustrative category flow
+2025-12-31,Debt,3224.490000,1797.720000,1426.770000,FY26,0,Deterministic illustrative category flow
+2025-12-31,Index & ETF,2890.900000,1118.690000,1772.210000,FY26,0,Deterministic illustrative category flow
+2025-12-31,ELSS,1799.060000,724.940000,1074.120000,FY26,0,Deterministic illustrative category flow

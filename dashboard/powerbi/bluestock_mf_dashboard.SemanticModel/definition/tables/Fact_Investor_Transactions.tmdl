@@ -1,0 +1,146 @@
+table Fact_Investor_Transactions
+	lineageTag: a7e3fd84-4a8b-48e0-b425-b72d01d81fef
+
+	measure 'Transaction Amount' = SUM(Fact_Investor_Transactions[amount_crore])
+		formatString: ₹#,0.00 Cr
+		lineageTag: 07becc49-7d88-4ea3-bf40-281931c81755
+
+	measure 'Transaction Volume' = COUNTROWS(Fact_Investor_Transactions)
+		formatString: #,0
+		lineageTag: aca95dda-2f6a-4a21-8cab-a6704b93b436
+
+	measure 'Avg SIP Amount' = CALCULATE(AVERAGE(Fact_Investor_Transactions[amount_rupees]), Fact_Investor_Transactions[transaction_type] = "SIP")
+		formatString: ₹#,0
+		lineageTag: 4414001b-9df0-4dd7-a608-0b78a42d32a6
+
+	column transaction_id
+		dataType: string
+		lineageTag: 65199e4b-f59f-449d-978a-69e95cf22ca3
+		summarizeBy: none
+		sourceColumn: transaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column investor_id
+		dataType: string
+		lineageTag: 8925a7f1-4ddc-4805-99e4-38a459d5e1e8
+		summarizeBy: none
+		sourceColumn: investor_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column amfi_code
+		dataType: string
+		lineageTag: dbbf7a0d-65a4-43ef-ba80-e24148ed8d80
+		summarizeBy: none
+		sourceColumn: amfi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: da413d79-1591-411d-b521-786cd8cf0cab
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_type
+		dataType: string
+		lineageTag: ac459cbd-9504-4d56-b466-2d31b1d600ac
+		summarizeBy: none
+		sourceColumn: transaction_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount_rupees
+		dataType: double
+		formatString: ₹#,0
+		lineageTag: 711e8254-2111-4552-92ce-0c162e96ad04
+		summarizeBy: sum
+		sourceColumn: amount_rupees
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: eff17e37-e6cd-4d31-8bde-17d9c242fc1b
+		summarizeBy: sum
+		sourceColumn: amount_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: bc2f9f5f-0eed-4b31-8e9a-18cc75613f24
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column age_group
+		dataType: string
+		lineageTag: 359fbb5b-8522-44d7-955e-e2319bf105ae
+		summarizeBy: none
+		sourceColumn: age_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column age
+		dataType: int64
+		formatString: #,0
+		lineageTag: ff4d0cdf-b191-47a0-aa03-c52e3d7f9823
+		summarizeBy: sum
+		sourceColumn: age
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 1366dfc9-efeb-4d48-bd8e-2ee81f37b7d7
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column city_tier
+		dataType: string
+		lineageTag: a6524cae-3e5f-4d6e-bfbe-0b5e42fe7345
+		summarizeBy: none
+		sourceColumn: city_tier
+
+		annotation SummarizationSetBy = Automatic
+
+	column net_amount_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 06ad6755-09d4-4a33-b7aa-6be4250077a3
+		summarizeBy: sum
+		sourceColumn: net_amount_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 6d39b065-dec7-4661-b638-fa022de3c0f6
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Investor_Transactions = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_investor_transactions.csv"), [Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"transaction_id", type text}, {"investor_id", type text}, {"amfi_code", type text}, {"date", type date}, {"transaction_type", type text}, {"amount_rupees", type number}, {"amount_crore", type number}, {"state", type text}, {"age_group", type text}, {"age", Int64.Type}, {"city", type text}, {"city_tier", type text}, {"net_amount_crore", type number}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

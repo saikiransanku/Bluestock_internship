@@ -1,0 +1,79 @@
+table Fact_Fund_AUM
+	lineageTag: db9afc21-91a0-47e2-857d-2c964a940b9e
+
+	measure 'Total Fund AUM' = SUM(Fact_Fund_AUM[aum_crore])
+		formatString: ₹#,0 Cr
+		lineageTag: 02891032-cd4a-4bfa-bacb-de270ae74be3
+
+	column amfi_code
+		dataType: string
+		lineageTag: 3705ee78-783c-4ed5-962e-b2b2010e9420
+		summarizeBy: none
+		sourceColumn: amfi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheme_name
+		dataType: string
+		lineageTag: 1f2cb692-e0e9-4b12-a7fe-306b489526b6
+		summarizeBy: none
+		sourceColumn: scheme_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column fund_house
+		dataType: string
+		lineageTag: 8889cea2-e706-4464-bd83-3343bfee7617
+		summarizeBy: none
+		sourceColumn: fund_house
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 340b0247-305b-4997-aea1-cf6cf874b349
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column aum_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 1056a960-a3b6-4a81-8320-353457ceefd8
+		summarizeBy: sum
+		sourceColumn: aum_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: f637e1ef-05a2-4442-96e3-ba5e5873a74f
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 17be4b18-007d-4756-a776-830b33b7cf63
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Fund_AUM = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_fund_aum.csv"), [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"amfi_code", type text}, {"scheme_name", type text}, {"fund_house", type text}, {"category", type text}, {"aum_crore", type number}, {"date", type date}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

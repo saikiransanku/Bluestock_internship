@@ -1,0 +1,128 @@
+table Fact_NAV
+	lineageTag: d2d35ded-1d4d-479a-a79f-6eacaa06141b
+
+	measure 'NAV Value' = AVERAGE(Fact_NAV[nav])
+		formatString: 0.0000
+		lineageTag: 97bbe6a3-b352-4ec5-8943-7b935673eca6
+
+	measure 'Daily Return' = AVERAGE(Fact_NAV[daily_return])
+		formatString: 0.00%
+		lineageTag: f5e39d25-9c84-45b3-aa91-552c4cd79626
+
+	measure 'Fund Growth Index' = AVERAGE(Fact_NAV[normalized_nav])
+		formatString: 0.0
+		lineageTag: f94c6031-3b3b-4e65-b6fa-7c931da9c239
+
+	measure 'Nifty 50 Growth Index' = AVERAGE(Fact_NAV[normalized_nifty50])
+		formatString: 0.0
+		lineageTag: 72220c15-e1a1-4cec-b0bd-f61f9769b585
+
+	measure 'Nifty 100 Growth Index' = AVERAGE(Fact_NAV[normalized_nifty100])
+		formatString: 0.0
+		lineageTag: 2c2221ec-4f6d-4ebd-a98d-b10d92829b88
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 55d48de9-6678-41b0-8fc3-d39e667f0edc
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column amfi_code
+		dataType: string
+		lineageTag: 8146d784-aca8-4a4e-bea3-208bc5a0b88d
+		summarizeBy: none
+		sourceColumn: amfi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheme_name
+		dataType: string
+		lineageTag: a5436783-df3e-49c9-8b4f-22dcb996c7f0
+		summarizeBy: none
+		sourceColumn: scheme_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column nav
+		dataType: double
+		formatString: 0.0000
+		lineageTag: c7628a85-d443-491d-ab92-ffa2acc12733
+		summarizeBy: sum
+		sourceColumn: nav
+
+		annotation SummarizationSetBy = Automatic
+
+	column daily_return
+		dataType: double
+		formatString: 0.00%
+		lineageTag: 0cfb9d8f-2b0b-4311-8db8-957bb270e2ab
+		summarizeBy: sum
+		sourceColumn: daily_return
+
+		annotation SummarizationSetBy = Automatic
+
+	column normalized_nav
+		dataType: double
+		lineageTag: 1833a4cb-8557-494c-a51e-ace84d3d2e11
+		summarizeBy: sum
+		sourceColumn: normalized_nav
+
+		annotation SummarizationSetBy = Automatic
+
+	column nifty50
+		dataType: double
+		lineageTag: e7e09912-4c69-46c9-96d5-d9fc7cf70dcf
+		summarizeBy: sum
+		sourceColumn: nifty50
+
+		annotation SummarizationSetBy = Automatic
+
+	column nifty100
+		dataType: double
+		lineageTag: b942a925-e581-4daf-b759-d7e7dc5b76c8
+		summarizeBy: sum
+		sourceColumn: nifty100
+
+		annotation SummarizationSetBy = Automatic
+
+	column normalized_nifty50
+		dataType: double
+		lineageTag: 2e81d405-edfb-4eb9-b944-42962ae20b18
+		summarizeBy: sum
+		sourceColumn: normalized_nifty50
+
+		annotation SummarizationSetBy = Automatic
+
+	column normalized_nifty100
+		dataType: double
+		lineageTag: 78336220-9a5c-4f4a-9624-e0f86e87a611
+		summarizeBy: sum
+		sourceColumn: normalized_nifty100
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: 14b0009f-dc62-4543-b5fa-69567ecfeeef
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_NAV = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_nav.csv"), [Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"date", type date}, {"amfi_code", type text}, {"scheme_name", type text}, {"nav", type number}, {"daily_return", type number}, {"normalized_nav", type number}, {"nifty50", type number}, {"nifty100", type number}, {"normalized_nifty50", type number}, {"normalized_nifty100", type number}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

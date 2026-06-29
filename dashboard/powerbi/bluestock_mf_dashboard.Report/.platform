@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Bluestock MF Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9445b4c0-a262-557d-8eff-38d0b66afc56"
+  }
+}

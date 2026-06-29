@@ -1,0 +1,126 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 374.5440755294278,
+            "y": 309.084786277141
+          },
+          "nodeIndex": "Dim_Date",
+          "nodeLineageTag": "057c5093-1f3a-43b3-9200-714a20558503",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 776.19102160365549,
+            "y": 310.68786372426922
+          },
+          "nodeIndex": "Dim_Fund",
+          "nodeLineageTag": "e97ff832-f193-4450-847d-a6c65ab78df0",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 434.21526016633209
+          },
+          "nodeIndex": "Fact_Category_Flows",
+          "nodeLineageTag": "113b8b31-ae59-4352-bfd7-7abd8009941a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 550.34162438725434,
+            "y": -19.38727961703853
+          },
+          "nodeIndex": "Fact_Fund_AUM",
+          "nodeLineageTag": "db9afc21-91a0-47e2-857d-2c964a940b9e",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 81.716132609826673,
+            "y": 73.325305919384164
+          },
+          "nodeIndex": "Fact_Industry_Monthly",
+          "nodeLineageTag": "4669c9e1-119e-4395-af4d-61a5384860fe",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 489.01278432745158,
+            "y": 658.39324285186865
+          },
+          "nodeIndex": "Fact_Investor_Transactions",
+          "nodeLineageTag": "a7e3fd84-4a8b-48e0-b425-b72d01d81fef",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 775.88142908629061,
+            "y": 668.78584996900759
+          },
+          "nodeIndex": "Fact_NAV",
+          "nodeLineageTag": "d2d35ded-1d4d-479a-a79f-6eacaa06141b",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 842.55027183994184,
+            "y": -50
+          },
+          "nodeIndex": "Fact_Performance",
+          "nodeLineageTag": "cef13fbf-bca1-4004-af81-8b835df88bc0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

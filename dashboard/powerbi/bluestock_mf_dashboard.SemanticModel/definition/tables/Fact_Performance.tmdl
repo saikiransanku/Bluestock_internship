@@ -1,0 +1,293 @@
+table Fact_Performance
+	lineageTag: cef13fbf-bca1-4004-af81-8b835df88bc0
+
+	measure 'Fund Rank' = MIN(Fact_Performance[overall_rank])
+		formatString: 0
+		lineageTag: 772f1023-55a9-439c-940e-0a421d8b31fa
+
+	measure 'Fund Score' = MAX(Fact_Performance[fund_score])
+		formatString: 0.00
+		lineageTag: 57016eed-4d0a-4669-b235-b2f2fe3f73fb
+
+	measure '3Y CAGR' = MAX(Fact_Performance[cagr_3y_pct])
+		formatString: 0.00%
+		lineageTag: 9a424d3f-5f1d-47e4-bcf8-90f79c5c2f57
+
+	measure Sharpe = MAX(Fact_Performance[sharpe_ratio])
+		formatString: 0.00
+		lineageTag: 0a60bd81-cab9-4f44-83f3-7bdbdaf7a39e
+
+	measure Sortino = MAX(Fact_Performance[sortino_ratio])
+		formatString: 0.00
+		lineageTag: fb789e12-d6b6-4356-adfa-c9acf4ef56e0
+
+	measure Alpha = MAX(Fact_Performance[alpha_annual_pct])
+		formatString: 0.00%
+		lineageTag: 90c6d526-3258-4e90-ad17-3ce3a3594b2b
+
+	measure 'Max Drawdown' = MAX(Fact_Performance[max_drawdown_pct])
+		formatString: 0.00%
+		lineageTag: 17f53758-ac85-428f-8f28-ecd5215492bb
+
+	measure 'Avg 3Y Return' = AVERAGE(Fact_Performance[cagr_3y_pct])
+		formatString: 0.00%
+		lineageTag: 5f62fb5b-b446-41fe-b264-56133fd5f835
+
+	measure 'Avg Risk' = AVERAGE(Fact_Performance[annualized_volatility_pct])
+		formatString: 0.00%
+		lineageTag: de071833-0663-464e-93f8-3d555386adf7
+
+	measure 'AUM Size' = SUM(Fact_Performance[aum_crore])
+		formatString: ₹#,0 Cr
+		lineageTag: 3e39d3c8-7b23-4d3c-a947-885df7bb247b
+
+	column amfi_code
+		dataType: string
+		lineageTag: 966bd543-52ec-4e9a-9419-a46eaccf82c4
+		summarizeBy: none
+		sourceColumn: amfi_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheme_name
+		dataType: string
+		lineageTag: ddf441d8-6a99-4c80-b5eb-890e993eca03
+		summarizeBy: none
+		sourceColumn: scheme_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column fund_house
+		dataType: string
+		lineageTag: 61dbf05a-d994-4309-bd6b-4529c0e27ba8
+		summarizeBy: none
+		sourceColumn: fund_house
+
+		annotation SummarizationSetBy = Automatic
+
+	column category
+		dataType: string
+		lineageTag: 7f0c704b-33bb-42ec-be95-696ff608b40d
+		summarizeBy: none
+		sourceColumn: category
+
+		annotation SummarizationSetBy = Automatic
+
+	column plan
+		dataType: string
+		lineageTag: 6757d0f7-5e9a-48d2-b6e2-a4ae40e6158c
+		summarizeBy: none
+		sourceColumn: plan
+
+		annotation SummarizationSetBy = Automatic
+
+	column date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 1766729f-02d7-465f-aca5-b01b744ccda6
+		summarizeBy: none
+		sourceColumn: date
+
+		annotation SummarizationSetBy = Automatic
+
+	column as_of_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: b5ac8875-4f49-4b33-90df-e913a432e6c5
+		summarizeBy: none
+		sourceColumn: as_of_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column overall_rank
+		dataType: int64
+		formatString: #,0
+		lineageTag: 24e1e4b4-c0be-43a1-a731-240d18263e3e
+		summarizeBy: sum
+		sourceColumn: overall_rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column fund_score
+		dataType: double
+		formatString: 0.00
+		lineageTag: d292efde-87bd-46b4-844a-423d5a9e8c4f
+		summarizeBy: sum
+		sourceColumn: fund_score
+
+		annotation SummarizationSetBy = Automatic
+
+	column cagr_1y_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 97881833-10b4-4e85-9796-4c2c99a02d22
+		summarizeBy: sum
+		sourceColumn: cagr_1y_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column cagr_3y_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 8485cb6a-8f67-4bb1-a4e1-95c4a9422cca
+		summarizeBy: sum
+		sourceColumn: cagr_3y_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column cagr_5y_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: db55fa78-526d-4df7-a97f-6a1ad0940a86
+		summarizeBy: sum
+		sourceColumn: cagr_5y_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column sharpe_ratio
+		dataType: double
+		formatString: 0.00
+		lineageTag: b1d606e8-14bd-47b4-a23a-be7d68f159be
+		summarizeBy: sum
+		sourceColumn: sharpe_ratio
+
+		annotation SummarizationSetBy = Automatic
+
+	column sortino_ratio
+		dataType: double
+		formatString: 0.00
+		lineageTag: 0b8e3dad-9248-4777-9ecb-9ff338dc8d70
+		summarizeBy: sum
+		sourceColumn: sortino_ratio
+
+		annotation SummarizationSetBy = Automatic
+
+	column annualized_volatility_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 88045ab0-69e7-48ef-a70f-5d66c7828a5f
+		summarizeBy: sum
+		sourceColumn: annualized_volatility_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column alpha_annual_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 7169325b-42c2-4cad-9e38-bcdbb1d9f40d
+		summarizeBy: sum
+		sourceColumn: alpha_annual_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column beta
+		dataType: double
+		formatString: 0.00
+		lineageTag: 6394abfc-ce9c-4ef5-9dca-61a7bd0368b0
+		summarizeBy: sum
+		sourceColumn: beta
+
+		annotation SummarizationSetBy = Automatic
+
+	column r_squared
+		dataType: double
+		formatString: 0.00
+		lineageTag: 6953bd67-1f49-40ca-bb04-1d1deb1fc87d
+		summarizeBy: sum
+		sourceColumn: r_squared
+
+		annotation SummarizationSetBy = Automatic
+
+	column expense_ratio_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: be1607ed-e5d6-44ff-b0f1-d0aae2c424b8
+		summarizeBy: sum
+		sourceColumn: expense_ratio_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column max_drawdown_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 963c23a9-bdbd-4388-8a1b-1ae4699625f0
+		summarizeBy: sum
+		sourceColumn: max_drawdown_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column drawdown_peak_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 2783d434-cc43-4ba9-847d-9f7b4ca88922
+		summarizeBy: none
+		sourceColumn: drawdown_peak_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column drawdown_trough_date
+		dataType: dateTime
+		formatString: yyyy-mm-dd
+		lineageTag: 25bdc2e3-4115-43e0-9824-7c4ad630c481
+		summarizeBy: none
+		sourceColumn: drawdown_trough_date
+
+		annotation SummarizationSetBy = Automatic
+
+	column tracking_error_nifty50_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: 67b3552e-39f1-42d8-b8f7-74a076998123
+		summarizeBy: sum
+		sourceColumn: tracking_error_nifty50_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column tracking_error_nifty100_pct
+		dataType: double
+		formatString: 0.00
+		lineageTag: d0dce733-ede2-428a-bd6f-d136207e54fd
+		summarizeBy: sum
+		sourceColumn: tracking_error_nifty100_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	column aum_crore
+		dataType: double
+		formatString: ₹#,0.00
+		lineageTag: 1bbf760a-3833-47d8-8302-5b9e999c33c9
+		summarizeBy: sum
+		sourceColumn: aum_crore
+
+		annotation SummarizationSetBy = Automatic
+
+	column risk_band
+		dataType: string
+		lineageTag: 854d1573-a24d-4103-82b9-2ce5861c4d3c
+		summarizeBy: none
+		sourceColumn: risk_band
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_status
+		dataType: string
+		lineageTag: eb92acd9-b3f9-4114-9c66-a2d58d024549
+		summarizeBy: none
+		sourceColumn: data_status
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Fact_Performance = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kiran\OneDrive\Documents\GitHub\Bluestock_internship\dashboard\data\fact_performance.csv"), [Delimiter=",", Columns=27, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers", {{"amfi_code", type text}, {"scheme_name", type text}, {"fund_house", type text}, {"category", type text}, {"plan", type text}, {"date", type date}, {"as_of_date", type date}, {"overall_rank", Int64.Type}, {"fund_score", type number}, {"cagr_1y_pct", type number}, {"cagr_3y_pct", type number}, {"cagr_5y_pct", type number}, {"sharpe_ratio", type number}, {"sortino_ratio", type number}, {"annualized_volatility_pct", type number}, {"alpha_annual_pct", type number}, {"beta", type number}, {"r_squared", type number}, {"expense_ratio_pct", type number}, {"max_drawdown_pct", type number}, {"drawdown_peak_date", type date}, {"drawdown_trough_date", type date}, {"tracking_error_nifty50_pct", type number}, {"tracking_error_nifty100_pct", type number}, {"aum_crore", type number}, {"risk_band", type text}, {"data_status", type text}}, "en-US")
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
